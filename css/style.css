@@ -10,24 +10,24 @@ p.weight1 {
 	 font-family: "Kreon";
 	 font-weight: 300;
 	 font-style: normal;
-	 font-size: 36px;
-	 line-height: 30px;
+	 font-size: 2.769em;
+	 line-height: 0.833em;
 }
 
 p.weight2 {
 	 font-family: "Kreon";
 	 font-weight: 400;
 	 font-style: normal;
-	 font-size: 36px;
-	 line-height: 30px;
+	 font-size: 2.769em;
+	 line-height: 0.833em;
 }
 
 p.weight3 {
 	 font-family: "Kreon";
 	 font-weight: 700;
 	 font-style: normal;
-	 font-size: 36px;
-	 line-height: 30px;
+	 font-size: 2.769em;
+	 line-height: 0.833em;
 }
 
 div.wrapper {
@@ -55,8 +55,8 @@ div {
 }
 
 h1 {
-	 font-size: 64px;
-	 line-height: 73px;
+	 font-size: 4.923em;
+	 line-height: 1.141em;
 	 margin-bottom: 25px;
 	 font-family: "Kreon";
 	 font-weight: 700;
@@ -66,31 +66,32 @@ h1 {
 }
 
 p {
-	 font-size: 24px;
+	 font-size: 1.846em;
 	 line-height: 26px;
 	 margin-bottom: 35px;
 }
 
 p.weights {
 	 letter-spacing: 2px;
-	 font-size: 13px;
+	 font-size: 1em;
 	 color: rgba(173,173,173,1);
 	 margin-bottom: 35px;
 	 border-width: 0px 0px 1px 0px;
 	 border-style: dotted;
 	 margin-top: 45px;
+	 line-height: 2em;
 }
 
 p.pullquote {
-	 font-size: 17px;
+	 font-size: 1.308em;
 	 line-height: 26px;
-	 margin-bottom: 35px;
 	 padding-left: 15px;
 	 border-width: 0px 0px 0px 3px;
 	 border-style: solid;
 	 font-family: "Kreon";
 	 font-weight: 400;
 	 font-style: normal;
+	 margin: 35px 0px;
 }
 
 p.map {
@@ -98,14 +99,14 @@ p.map {
 	 font-style: normal;
 	 margin-bottom: 0px;
 	 text-align: justify;
-	 font-size: 27px;
-	 line-height: 54px;
+	 font-size: 2.077em;
+	 line-height: 2em;
 	 margin-top: 0px;
 }
 
 p.heading {
 	 letter-spacing: 2px;
-	 font-size: 13px;
+	 font-size: 1em;
 	 margin-bottom: 35px;
 	 border-width: 0px 0px 1px 0px;
 	 border-style: dotted;
@@ -115,11 +116,12 @@ p.heading {
 
 p.intro {
 	 margin-bottom: 35px;
-	 font-size: 29px;
-	 line-height: 46px;
+	 font-size: 2.231em;
+	 line-height: 1.586em;
 	 font-family: "Kreon";
 	 font-weight: 300;
 	 font-style: normal;
+	 text-align: left;
 }
 
 p.inverse-big {
@@ -127,6 +129,8 @@ p.inverse-big {
 	 color: rgba(255,255,255,1);
 	 padding: 30px;
 	 margin-bottom: 0px;
+	 font-size: 1.846em;
+	 line-height: 1.083em;
 }
 
 p.inverse-med {
@@ -135,7 +139,8 @@ p.inverse-med {
 	 padding: 30px;
 	 margin-bottom: 0px;
 	 padding-top: 0px;
-	 font-size: 15px;
+	 font-size: 1.154em;
+	 line-height: 1.733em;
 }
 
 p.inverse-small {
@@ -145,7 +150,8 @@ p.inverse-small {
 	 padding-bottom: 30px;
 	 background-color: rgba(51,51,51,1);
 	 color: rgba(255,255,255,1);
-	 font-size: 13px;
+	 font-size: 1em;
+	 line-height: 2em;
 }
 
 p.inverse-heading {
@@ -154,9 +160,10 @@ p.inverse-heading {
 	 padding: 30px;
 	 margin-bottom: 0px;
 	 padding-bottom: 0px;
-	 font-size: 15px;
+	 font-size: 1.154em;
 	 letter-spacing: 2px;
 	 margin-top: 50px;
+	 line-height: 1.733em;
 }
 
 nav.menu-nav-hz {
@@ -183,6 +190,8 @@ a {
 	 -moz-column-width: 0px;
 	 -ms-column-width: 0px;
 	 column-width: 0px;
+	 font-size: 1em;
+	 line-height: 2em;
 }
 
 header.masthead {
@@ -218,5 +227,19 @@ li.masthead-li {
 	 line-height: 1em;
 	 font-size: 16px;
 	 list-style: none;
+}
+
+img {
+	 max-width: 100%;
+}
+
+span.dropcap {
+	 float: left;
+	 color: #333333;
+	 font-size: 95px;
+	 line-height: 60px;
+	 padding-top: 12px;
+	 padding-right: 12px;
+	 padding-left: 3px;
 }
 
