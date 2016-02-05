@@ -318,6 +318,9 @@ p.prolist {
 	 color: rgba(0,0,0,1);
 	 padding: 30px;
 	 text-align: left;
+	 font-family: "Kreon";
+	 font-weight: 400;
+	 font-style: normal;
 }
 
 nav.menu-nav {
@@ -345,7 +348,7 @@ p.footing {
 	 color: rgba(0,0,0,1);
 	 text-align: right;
 	 line-height: 2.6em;
-	 margin: 45px 0px 35px 0px;
+	 margin: 3.462em 0px 2.692em 0px;
 	 padding: 0px;
 }
 
