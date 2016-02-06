@@ -354,29 +354,29 @@ p.footing {
 	 padding: 0px;
 }
 
-a a {
+a {
 	 text-decoration: none;
 }
 
-a a:hover {
+a:hover {
 	 color: inherit;
 }
 
-a a:visited {
+a:visited {
 	text-decoration: none;
 }
 
-a a:active {
+a:active {
 	text-decoration: none;
 }
 
-a a.nothing {
+a.nothing {
 	 text-decoration: none;
 	 color: rgba(0, 0, 0, 1);
 	 background-color: rgba(255, 255, 255, 0);
 }
 
-a a.nothing a {
+a.nothing a {
 	 text-decoration: none;
 }
 
