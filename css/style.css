@@ -132,9 +132,6 @@ p.heading {
 	 color: rgba(0,0,0,1);
 	 text-align: left;
 	 line-height: 2.1em;
-	 font-family: "Kreon";
-	 font-weight: 400;
-	 font-style: normal;
 }
 
 p.intro {
@@ -216,7 +213,7 @@ a {
 	 font-size: 1em;
 	 line-height: 1.59em;
 	 color: rgba(51, 51, 51, 1);
-	 background-color: rgba(255, 255, 255, 0);
+	 width: 30.96875px;
 }
 
 header.masthead {
@@ -360,21 +357,23 @@ p.footing {
 	 padding: 0px;
 }
 
+img.wide {
+	 max-width: 100%;
+}
+
+p.body {
+	 font-family: "Kreon";
+	 font-weight: 300;
+	 font-style: normal;
+	 margin: 1.25em 0em 1.458em 0em;
+}
+
 a a {
 	 text-decoration: underline;
 }
 
-a a:hover {
-	 color: inherit;
-}
-
-
-a.black {
-	 color: rgba(0, 0, 0, 1);
-}
-
-a.bold {
-	font-weight: 700;
+a.nothing a {
+	 text-decoration: none;
 }
 
 @media only screen and (max-width: 768px) {
@@ -488,7 +487,6 @@ p.intro {
 a {
 	 font-size: 100%;
 	 line-height: 2em;
-	 text-decoration: none;
 	 -webkit-column-count: 0;
 	 -o-column-count: 0;
 	 -moz-column-count: 0;
@@ -552,13 +550,6 @@ div.wrapper {
 p.list {
 	 font-size: 1.3em;
 	 line-height: 1.51em;
-}
-
-p.body {
-   font-family: "Kreon";
-   font-weight: 300;
-   font-style: normal;
-   margin: 1.25em 0em 1.458em 0em;
 }
 
 }
