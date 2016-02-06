@@ -354,12 +354,8 @@ p.footing {
 	 padding: 0px;
 }
 
-a:link {
+a a:link {
 	text-decoration: none;
-}
-
-a a {
-	 text-decoration: none;
 }
 
 a a:hover {
