@@ -362,13 +362,21 @@ a a:hover {
 	 color: inherit;
 }
 
-a.nothing {
+a a:visited {
+	text-decoration: none;
+}
+
+a a:active {
+	text-decoration: none;
+}
+
+a a.nothing {
 	 text-decoration: none;
 	 color: rgba(0, 0, 0, 1);
 	 background-color: rgba(255, 255, 255, 0);
 }
 
-a.nothing a {
+a a.nothing a {
 	 text-decoration: none;
 }
 
@@ -379,6 +387,7 @@ a.black {
 a.under a {
 	 text-decoration: underline;
 }
+
 
 @media only screen and (max-width: 768px) {
 	 div {
