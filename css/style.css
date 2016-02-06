@@ -370,6 +370,9 @@ a.black {
 	 color: rgba(0, 0, 0, 1);
 }
 
+a.bold {
+	font-weight: 700;
+}
 
 @media only screen and (max-width: 768px) {
 	 div {
