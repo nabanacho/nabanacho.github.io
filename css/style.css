@@ -84,6 +84,9 @@ p {
 	 -moz-column-rule-style: inherit;
 	 -ms-column-rule-style: inherit;
 	 column-rule-style: inherit;
+	 font-family: "Kreon";
+	 font-weight: 300;
+	 font-style: normal;
 }
 
 p.weights {
