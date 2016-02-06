@@ -355,24 +355,18 @@ p.footing {
 }
 
 a a {
-	 text-decoration: none;
+	 text-decoration: underline;
 }
 
 a a:hover {
 	 color: inherit;
 }
 
-a.nothing a {
-	 text-decoration: none;
-}
 
 a.black {
 	 color: rgba(0, 0, 0, 1);
 }
 
-a.under a {
-	 text-decoration: underline;
-}
 
 @media only screen and (max-width: 768px) {
 	 div {
