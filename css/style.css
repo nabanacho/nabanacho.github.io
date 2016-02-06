@@ -355,7 +355,7 @@ p.footing {
 }
 
 a a {
-	 text-decoration: underline;
+	 text-decoration: none;
 }
 
 a a:hover {
@@ -363,7 +363,6 @@ a a:hover {
 }
 
 a.nothing {
-	 text-decoration: none;
 	 color: rgba(0, 0, 0, 1);
 	 background-color: rgba(255, 255, 255, 0);
 }
@@ -374,6 +373,10 @@ a.nothing a {
 
 a.black {
 	 color: rgba(0, 0, 0, 1);
+}
+
+a.under a {
+	 text-decoration: underline;
 }
 
 @media only screen and (max-width: 768px) {
