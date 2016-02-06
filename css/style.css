@@ -209,6 +209,8 @@ a {
 	 column-width: 0px;
 	 font-size: 1em;
 	 line-height: 1.59em;
+	 color: rgba(51, 51, 51, 1);
+	 background-color: rgba(255, 255, 255, 0);
 }
 
 header.masthead {
@@ -350,6 +352,27 @@ p.footing {
 	 line-height: 2.6em;
 	 margin: 3.462em 0px 2.692em 0px;
 	 padding: 0px;
+}
+
+a a {
+	 text-decoration: underline;
+}
+
+a a:hover {
+	 color: inherit;
+}
+
+a.nothing {
+	 color: rgba(51, 51, 51, 1);
+	 background-color: rgba(255, 255, 255, 0);
+}
+
+a.nothing a {
+	 text-decoration: none;
+}
+
+a.black {
+	 color: rgba(0, 0, 0, 1);
 }
 
 @media only screen and (max-width: 768px) {
