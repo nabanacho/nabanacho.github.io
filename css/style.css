@@ -52,6 +52,7 @@ div {
 	 padding: 0 2%;
 	 max-width: 760px;
 	 width: 760px;
+	 height: 8500px;
 }
 
 h1 {
@@ -87,6 +88,7 @@ p {
 	 font-family: "Kreon";
 	 font-weight: 400;
 	 font-style: normal;
+	 text-align: left;
 }
 
 p.weights {
@@ -303,8 +305,8 @@ p.menu {
 div.basic {
 	 margin: 0 auto;
 	 text-align: center;
-	 width: 711px;
-	 height: 2px;
+	 width: 712.796875px;
+	 height: 160px;
 }
 
 i {
@@ -366,6 +368,8 @@ p.body {
 	 font-weight: 300;
 	 font-style: normal;
 	 margin: 1.25em 0em 1.458em 0em;
+	 text-align: left;
+	 width: 711px;
 }
 
 a a {
@@ -374,6 +378,24 @@ a a {
 
 a.nothing a {
 	 text-decoration: none;
+}
+
+aside {
+	 height: 4729px;
+}
+
+header {
+	 height: 2478px;
+}
+
+i.reg {
+	 font-family: "Kreon";
+	 font-weight: 400;
+	 font-style: normal;
+}
+
+p.section {
+	 text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
