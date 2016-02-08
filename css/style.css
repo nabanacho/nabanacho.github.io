@@ -52,7 +52,7 @@ div {
 	 padding: 0 2%;
 	 max-width: 760px;
 	 width: 760px;
-	 height: auto;
+	 height: 603px;
 }
 
 h1 {
@@ -369,7 +369,7 @@ p.body {
 	 font-style: normal;
 	 margin: 1.25em 0em 1.458em 0em;
 	 text-align: left;
-	 width: 689px;
+	 width: 703px;
 }
 
 a a {
@@ -381,11 +381,11 @@ a.nothing a {
 }
 
 aside {
-	 height: auto;
+	 height: 1962px;
 }
 
 header {
-	 height: auto;
+	 height: 2671px;
 }
 
 i.reg {
@@ -409,6 +409,10 @@ div.wrapper {
 
 p.body {
 	 width: 648.46875px;
+}
+
+aside {
+	 height: auto;
 }
 
 }@media only screen and (max-width: 480px) {
