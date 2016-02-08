@@ -52,7 +52,7 @@ div {
 	 padding: 0 2%;
 	 max-width: 760px;
 	 width: 760px;
-	 height: 8500px;
+	 height: 603px;
 }
 
 h1 {
@@ -369,7 +369,7 @@ p.body {
 	 font-style: normal;
 	 margin: 1.25em 0em 1.458em 0em;
 	 text-align: left;
-	 width: 711px;
+	 width: 689px;
 }
 
 a a {
@@ -381,7 +381,7 @@ a.nothing a {
 }
 
 aside {
-	 height: 4729px;
+	 height: 4215px;
 }
 
 header {
@@ -480,6 +480,18 @@ p.list {
 	 line-height: 1.21em;
 }
 
+p.body {
+	 width: 386px;
+}
+
+p.section {
+	 width: 366px;
+}
+
+aside {
+	 height: 4411px;
+}
+
 }@media only screen and (max-width: 320px) {
 	 p {
 	 font-size: 1.4em;
@@ -572,6 +584,18 @@ div.wrapper {
 p.list {
 	 font-size: 1.3em;
 	 line-height: 1.51em;
+}
+
+p.section {
+	 width: 228px;
+}
+
+p.body {
+	 width: 228.0625px;
+}
+
+aside {
+	 height: 4194px;
 }
 
 }
