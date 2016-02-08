@@ -381,15 +381,11 @@ a.nothing a {
 }
 
 aside {
-	 height: auto;
+	 height: 4215px;
 }
 
 header {
-	 height: auto;
-}
-
-header.moment {
-
+	 height: 2478px;
 }
 
 i.reg {
@@ -497,11 +493,7 @@ p.section {
 }
 
 aside {
-	 height: auto;
-}
-
-header.moment {
-	
+	 height: 4411px;
 }
 
 }@media only screen and (max-width: 320px) {
@@ -607,11 +599,7 @@ p.body {
 }
 
 aside {
-	 height: auto;
-}
-
-header.moment {
-
+	 height: 4194px;
 }
 
 }
