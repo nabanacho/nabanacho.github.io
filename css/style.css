@@ -64,7 +64,6 @@ h1 {
 	 font-style: normal;
 	 color: rgba(226, 226, 226, 1);
 	 text-align: left;
-	 width: 100%;
 }
 
 p {
@@ -89,7 +88,7 @@ p {
 	 font-family: "Kreon";
 	 font-weight: 400;
 	 font-style: normal;
-	 text-align: center;
+	 text-align: left;
 }
 
 p.weights {
@@ -135,7 +134,6 @@ p.heading {
 	 color: rgba(0,0,0,1);
 	 text-align: left;
 	 line-height: 2.1em;
-	 width: 100%;
 }
 
 p.intro {
@@ -166,8 +164,6 @@ p.inverse-med {
 	 padding-top: 0px;
 	 font-size: 1.154em;
 	 line-height: 1.733em;
-	 text-align: left;
-	 width: 91.525%;
 }
 
 p.inverse-small {
@@ -259,7 +255,6 @@ li.masthead-li {
 
 img {
 	 max-width: 100%;
-	 width: 100%;
 }
 
 span.dropcap {
@@ -310,8 +305,10 @@ p.menu {
 div.basic {
 	 margin: 0 auto;
 	 text-align: center;
-	 width: 712.796875px;
+	 width: 100%;
 	 height: 160px;
+	 border-width: 0px;
+	 border-style: solid;
 }
 
 i {
@@ -362,7 +359,6 @@ p.footing {
 	 line-height: 2.6em;
 	 margin: 3.462em 0px 2.692em 0px;
 	 padding: 0px;
-	 width: 100%;
 }
 
 img.wide {
@@ -375,7 +371,7 @@ p.body {
 	 font-style: normal;
 	 margin: 1.25em 0em 1.458em 0em;
 	 text-align: left;
-	 width: 100.424%;
+	 width: 100%;
 }
 
 a a {
@@ -387,11 +383,11 @@ a.nothing a {
 }
 
 aside {
-	 height: 4215px;
+	 height: 1962px;
 }
 
 header {
-	 height: 2478px;
+	 height: 2671px;
 }
 
 i.reg {
@@ -402,15 +398,13 @@ i.reg {
 
 p.section {
 	 text-align: center;
-	 width: 100%;
 }
 
-article {
+div.basictop {
+	 height: 160px;
 	 width: 100%;
-}
-
-section {
-	 width: 100%;
+	 border-width: 1px 0px 0px 0px;
+	 border-style: dashed;
 }
 
 @media only screen and (max-width: 768px) {
@@ -423,34 +417,18 @@ div.wrapper {
 }
 
 p.body {
-	 width: 100.072%;
+	 width: 100%;
 }
 
-p.section {
+aside {
+	 height: auto;
+}
+
+div.basictop {
 	 width: 100%;
 }
 
 div.basic {
-	 width: 100%;
-}
-
-p.inverse-med {
-	 width: 91%;
-}
-
-img.wide {
-	 width: 100%;
-}
-
-img {
-	 width: 100%;
-}
-
-h1 {
-	 width: 100%;
-}
-
-p.footing {
 	 width: 100%;
 }
 
@@ -492,7 +470,6 @@ p.inverse-heading {
 p.inverse-med {
 	 font-size: 1.154em;
 	 line-height: 1.733em;
-	 width: 85%;
 }
 
 p.inverse-small {
@@ -533,27 +510,11 @@ p.body {
 }
 
 p.section {
-	 width: 100%;
+	 width: 366px;
 }
 
 aside {
-	 height: 4411px;
-}
-
-img {
-	 width: 100%;
-}
-
-img.wide {
-	 width: 100%;
-}
-
-h1 {
-	 width: 100%;
-}
-
-p.footing {
-	 width: 100%;
+	 height: auto;
 }
 
 }@media only screen and (max-width: 320px) {
@@ -574,7 +535,6 @@ div {
 h1 {
 	 font-size: 3em;
 	 line-height: 1.108em;
-	 width: 100%;
 }
 
 p.intro {
@@ -636,7 +596,6 @@ p.inverse-big {
 p.inverse-med {
 	 font-size: 1.15em;
 	 line-height: 1.54em;
-	 width: 75%;
 }
 
 article {
@@ -653,7 +612,7 @@ p.list {
 }
 
 p.section {
-	 width: 100%;
+	 width: 228px;
 }
 
 p.body {
@@ -661,19 +620,7 @@ p.body {
 }
 
 aside {
-	 height: 4194px;
-}
-
-img {
-	 width: 100%;
-}
-
-img.wide {
-	 width: 100%;
-}
-
-p.footing {
-	 width: 100%;
+	 height: auto;
 }
 
 }
