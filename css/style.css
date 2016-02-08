@@ -52,7 +52,7 @@ div {
 	 padding: 0 2%;
 	 max-width: 760px;
 	 width: 760px;
-	 height: 603px;
+	 height: auto;
 }
 
 h1 {
@@ -381,11 +381,11 @@ a.nothing a {
 }
 
 aside {
-	 height: 4215px;
+	 height: auto;
 }
 
 header {
-	 height: 2478px;
+	 height: auto;
 }
 
 i.reg {
@@ -493,7 +493,7 @@ p.section {
 }
 
 aside {
-	 height: 4411px;
+	 height: auto;
 }
 
 }@media only screen and (max-width: 320px) {
@@ -599,7 +599,7 @@ p.body {
 }
 
 aside {
-	 height: 4194px;
+	 height: auto;
 }
 
 }
