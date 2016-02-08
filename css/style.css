@@ -369,7 +369,7 @@ p.body {
 	 font-style: normal;
 	 margin: 1.25em 0em 1.458em 0em;
 	 text-align: left;
-	 width: 689px;
+	 width: 703px;
 }
 
 a a {
@@ -381,11 +381,11 @@ a.nothing a {
 }
 
 aside {
-	 height: 4215px;
+	 height: 1962px;
 }
 
 header {
-	 height: 2478px;
+	 height: 2671px;
 }
 
 i.reg {
@@ -409,6 +409,10 @@ div.wrapper {
 
 p.body {
 	 width: 648.46875px;
+}
+
+aside {
+	 height: auto;
 }
 
 }@media only screen and (max-width: 480px) {
@@ -493,7 +497,7 @@ p.section {
 }
 
 aside {
-	 height: 4411px;
+	 height: auto;
 }
 
 }@media only screen and (max-width: 320px) {
@@ -599,7 +603,7 @@ p.body {
 }
 
 aside {
-	 height: 4194px;
+	 height: auto;
 }
 
 }
