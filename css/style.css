@@ -64,6 +64,7 @@ h1 {
 	 font-style: normal;
 	 color: rgba(226, 226, 226, 1);
 	 text-align: left;
+	 width: 100%;
 }
 
 p {
@@ -88,7 +89,7 @@ p {
 	 font-family: "Kreon";
 	 font-weight: 400;
 	 font-style: normal;
-	 text-align: left;
+	 text-align: center;
 }
 
 p.weights {
@@ -134,6 +135,7 @@ p.heading {
 	 color: rgba(0,0,0,1);
 	 text-align: left;
 	 line-height: 2.1em;
+	 width: 100%;
 }
 
 p.intro {
@@ -164,6 +166,8 @@ p.inverse-med {
 	 padding-top: 0px;
 	 font-size: 1.154em;
 	 line-height: 1.733em;
+	 text-align: left;
+	 width: 91.525%;
 }
 
 p.inverse-small {
@@ -255,6 +259,7 @@ li.masthead-li {
 
 img {
 	 max-width: 100%;
+	 width: 100%;
 }
 
 span.dropcap {
@@ -357,6 +362,7 @@ p.footing {
 	 line-height: 2.6em;
 	 margin: 3.462em 0px 2.692em 0px;
 	 padding: 0px;
+	 width: 100%;
 }
 
 img.wide {
@@ -369,7 +375,7 @@ p.body {
 	 font-style: normal;
 	 margin: 1.25em 0em 1.458em 0em;
 	 text-align: left;
-	 width: 711px;
+	 width: 100.424%;
 }
 
 a a {
@@ -396,6 +402,15 @@ i.reg {
 
 p.section {
 	 text-align: center;
+	 width: 100%;
+}
+
+article {
+	 width: 100%;
+}
+
+section {
+	 width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -408,7 +423,35 @@ div.wrapper {
 }
 
 p.body {
-	 width: 648.46875px;
+	 width: 100.072%;
+}
+
+p.section {
+	 width: 100%;
+}
+
+div.basic {
+	 width: 100%;
+}
+
+p.inverse-med {
+	 width: 91%;
+}
+
+img.wide {
+	 width: 100%;
+}
+
+img {
+	 width: 100%;
+}
+
+h1 {
+	 width: 100%;
+}
+
+p.footing {
+	 width: 100%;
 }
 
 }@media only screen and (max-width: 480px) {
@@ -449,6 +492,7 @@ p.inverse-heading {
 p.inverse-med {
 	 font-size: 1.154em;
 	 line-height: 1.733em;
+	 width: 85%;
 }
 
 p.inverse-small {
@@ -485,15 +529,31 @@ p.list {
 }
 
 p.body {
-	 width: 386px;
+	 width: 100%;
 }
 
 p.section {
-	 width: 366px;
+	 width: 100%;
 }
 
 aside {
 	 height: 4411px;
+}
+
+img {
+	 width: 100%;
+}
+
+img.wide {
+	 width: 100%;
+}
+
+h1 {
+	 width: 100%;
+}
+
+p.footing {
+	 width: 100%;
 }
 
 }@media only screen and (max-width: 320px) {
@@ -514,6 +574,7 @@ div {
 h1 {
 	 font-size: 3em;
 	 line-height: 1.108em;
+	 width: 100%;
 }
 
 p.intro {
@@ -575,6 +636,7 @@ p.inverse-big {
 p.inverse-med {
 	 font-size: 1.15em;
 	 line-height: 1.54em;
+	 width: 75%;
 }
 
 article {
@@ -591,15 +653,27 @@ p.list {
 }
 
 p.section {
-	 width: 228px;
+	 width: 100%;
 }
 
 p.body {
-	 width: 228.0625px;
+	 width: 100%;
 }
 
 aside {
 	 height: 4194px;
+}
+
+img {
+	 width: 100%;
+}
+
+img.wide {
+	 width: 100%;
+}
+
+p.footing {
+	 width: 100%;
 }
 
 }
