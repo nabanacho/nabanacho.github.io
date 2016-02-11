@@ -421,10 +421,10 @@ div.topline {
 
 div.three-col-gallery {
 	 width: auto;
-	 height: auto;
 	 text-align: center;
 	 margin: 0 auto;
 	 padding: 0px;
+	 height: 330px;
 }
 
 div.three-col-gallery:before {
