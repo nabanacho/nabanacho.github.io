@@ -439,7 +439,7 @@ div.three-col-gallery:after {
 img.three-col-img {
 	 width: 33%;
 	 float: left;
-	 margin: 0% 0.1% 0.1% 0.1%;
+	 margin: 0.1%;
 	 border-width: 0px;
 	 border-style: solid;
 }
