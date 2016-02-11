@@ -649,4 +649,59 @@ p.lesspadding {
 	 line-height: 1.51em;
 }
 
+div.three-col-gallery {
+	 width: auto;
+	 text-align: center;
+	 margin: 0 auto;
+	 padding: 0px;
+}
+
+div.three-col-gallery:before {
+	 content: "";
+	 display: table;
+}
+
+div.three-col-gallery:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+
+img.three-col-img {
+	 width: 33%;
+	 float: left;
+	 margin: 0%;
+	 padding: 1px;
+}
+
+article.img-media-list {
+	 width: auto;
+	 text-align: left;
+	 margin: 0 auto;
+}
+
+div.image-media:before {
+	 content: "";
+	 display: table;
+}
+
+div.image-media:after {
+	 content: "";
+	 display: table;
+	 clear: both;
+}
+
+div.image-media {
+	 width: auto;
+	 text-align: left;
+	 margin: 0;
+}
+
+img.image-media-left {
+	 max-width: 100%;
+	 float: left;
+	 width: 150px;
+	 margin: 0 1em 1em 0;
+}
+
 }
