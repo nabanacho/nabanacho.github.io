@@ -423,6 +423,7 @@ div.three-col-gallery {
 	 width: auto;
 	 text-align: left;
 	 margin: 0 auto;
+	 padding: 0px;
 }
 
 div.three-col-gallery:before {
@@ -437,7 +438,7 @@ div.three-col-gallery:after {
 }
 
 img.three-col-img {
-	 width: 33%;
+	 width: 33.3%;
 	 float: left;
 	 margin: 0%;
 	 border-width: 0px;
