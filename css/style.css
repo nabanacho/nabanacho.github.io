@@ -67,8 +67,8 @@ h1 {
 }
 
 p {
-	 font-size: 1.846em;
-	 line-height: 1.3em;
+	 font-size: 1.7em;
+	 line-height: 1.45em;
 	 margin-bottom: 35px;
 	 -webkit-column-count: 0;
 	 -o-column-count: 0;
@@ -523,8 +523,8 @@ p.image {
    -o-column-rule-style: inherit;
    -moz-column-rule-style: inherit;
    -ms-column-rule-style: inherit;
-   font-size: 1.846em;
-   line-height: 1.3em;
+   font-size: 1.7em;
+   line-height: 1.45em;
    margin-bottom: 35px;
    column-count: 0;
    column-width: 0px;
@@ -676,7 +676,7 @@ div {
 }
 
 h1 {
-	 font-size: 3em;
+	 font-size: 2.7em;
 	 line-height: 1.108em;
 }
 
@@ -737,8 +737,8 @@ p.inverse-big {
 }
 
 p.inverse-med {
-	 font-size: 1.15em;
-	 line-height: 1.54em;
+	 font-size: 12px;
+	 line-height: 1.45em;
 }
 
 article {
@@ -760,6 +760,8 @@ p.section {
 
 p.body {
 	 width: 100%;
+	 font-size: 1.1em;
+	 line-heigh: 1.7em;
 }
 
 aside {
@@ -769,6 +771,12 @@ aside {
 p.lesspadding {
 	 font-size: 1.4em;
 	 line-height: 1.51em;
+}
+
+p.image {
+	width: 100%;
+	font-size: 1.1em;
+	line-height:1.7em;
 }
 
 }
