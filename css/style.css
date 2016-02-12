@@ -164,6 +164,7 @@ p.inverse-med {
 	 padding-top: 0px;
 	 font-size: 1.154em;
 	 line-height: 1.733em;
+	 font-weight: 300;
 }
 
 p.inverse-small {
@@ -509,6 +510,35 @@ div.third {
 	 box-sizing: border-box;
 }
 
+p.image {
+   -webkit-column-count: 0;
+   -o-column-count: 0;
+   -moz-column-count: 0;
+   -ms-column-count: 0;
+   -webkit-column-width: 0px;
+   -o-column-width: 0px;
+   -moz-column-width: 0px;
+   -ms-column-width: 0px;
+   -webkit-column-rule-style: inherit;
+   -o-column-rule-style: inherit;
+   -moz-column-rule-style: inherit;
+   -ms-column-rule-style: inherit;
+   font-size: 1.846em;
+   line-height: 1.3em;
+   margin-bottom: 35px;
+   column-count: 0;
+   column-width: 0px;
+   column-rule-style: inherit;
+   font-family: "Kreon";
+   font-weight: 300;
+   font-style: normal;
+   text-align: left;
+}
+
+audio {
+	float: left;
+}
+
 
 @media only screen and (max-width: 768px) {
 	 div {
@@ -738,12 +768,6 @@ aside {
 p.lesspadding {
 	 font-size: 1.4em;
 	 line-height: 1.51em;
-}
-
-audio {
-	width: 40%;
-	margin: 0px;
-	float: left;
 }
 
 }
