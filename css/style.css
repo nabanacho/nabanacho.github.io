@@ -740,4 +740,10 @@ p.lesspadding {
 	 line-height: 1.51em;
 }
 
+audio {
+	width: 40%;
+	margin: 0;
+	float: left;
+}
+
 }
