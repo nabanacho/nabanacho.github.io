@@ -1,14 +1,16 @@
 body {
-	 padding: 50px 0;
-	 font-size: 13px;
-	 font-family: "Kreon";
+	 padding: 0;
+	 font-size: 12px;
+	 font-family: 'Merriweather', serif, 'Open Sans';
 	 font-style: normal;
-	 font-weight: 400;
-	 -webkit-font-smoothing: antialiased;
+	 font-weight: 300;
+	 line-height: 32px;
+	 color: rgba(32, 32, 32, 1);
+	 /*-webkit-font-smoothing: antialiased;*/
 }
 
 p.weight1 {
-	 font-family: "Kreon";
+	 font-family: 'Merriweather', serif;
 	 font-weight: 300;
 	 font-style: normal;
 	 font-size: 2.769em;
@@ -16,7 +18,7 @@ p.weight1 {
 }
 
 p.weight2 {
-	 font-family: "Kreon";
+	 font-family: 'Merriweather', serif;
 	 font-weight: 400;
 	 font-style: normal;
 	 font-size: 2.769em;
@@ -24,7 +26,7 @@ p.weight2 {
 }
 
 p.weight3 {
-	 font-family: "Kreon";
+	 font-family: 'Merriweather', serif;
 	 font-weight: 700;
 	 font-style: normal;
 	 font-size: 2.769em;
@@ -54,23 +56,27 @@ div {
 	 max-width: 760px;
 	 width: 760px;
 	 height: 603px;
+	 font-family: 'Merriweather';
+	 font-weight: 400;
+	 font-style: normal;
 }
 
 h1 {
-	 font-size: 4em;
-	 line-height: 1.141em;
+	font-size: 52px;
+	 line-height: 59px;
 	 margin-bottom: 25px;
-	 font-family: "Kreon";
-	 font-weight: 700;
-	 font-style: normal;
-	 color: rgba(226, 226, 226, 1);
+	 font-family: "Open Sans";
+	 color: rgba(140, 140, 140, 1);
 	 text-align: left;
+	 font-weight: 300;
+	 font-style: normal;
 }
 
 p {
-	 font-size: 1.5em;
-	 line-height: 1.45em;
-	 margin-bottom: 35px;
+	 font-size: 14px;
+	 /*line-height: 34px*/
+	 margin-bottom: 30px;
+	 /*margin-top: 30px;*/
 	 -webkit-column-count: 0;
 	 -o-column-count: 0;
 	 -moz-column-count: 0;
@@ -86,7 +92,7 @@ p {
 	 -moz-column-rule-style: inherit;
 	 -ms-column-rule-style: inherit;
 	 column-rule-style: inherit;
-	 font-family: "Kreon";
+	 font-family: 'Merriweather', serif;
 	 font-weight: 400;
 	 font-style: normal;
 	 text-align: left;
@@ -109,7 +115,7 @@ p.pullquote {
 	 padding-left: 15px;
 	 border-width: 0px 0px 0px 3px;
 	 border-style: solid;
-	 font-family: "Kreon";
+	 font-family: 'Merriweather', serif;
 	 font-weight: 400;
 	 font-style: normal;
 	 margin: 35px 0px;
@@ -127,24 +133,28 @@ p.map {
 
 p.heading {
 	 letter-spacing: 2px;
-	 font-size: 1em;
+	 font-size: 11px;
 	 margin-bottom: 35px;
 	 border-width: 0px 0px 1px 0px;
 	 border-style: dotted;
 	 margin-top: 45px;
-	 color: rgba(0,0,0,1);
+	 color: rgba(32, 32, 32, 1);
 	 text-align: left;
-	 line-height: 2.1em;
+	 line-height: 27px;
+	 font-family: 'Merriweather', serif;
+	 font-weight: 700;
+	 font-style: normal;
 }
 
 p.intro {
 	 margin-bottom: 35px;
-	 font-size: 2.231em;
-	 line-height: 1.59em;
-	 font-family: "Kreon";
+	 font-size: 23px;
+	 line-height: 40px;
+	 font-family: 'Merriweather', serif;
 	 font-weight: 300;
 	 font-style: normal;
 	 text-align: left;
+	 color: rgba(41,41,41,1);
 	 padding: 0px;
 }
 
@@ -158,14 +168,15 @@ p.inverse-big {
 }
 
 p.inverse-med {
-	 background-color: rgba(51,51,51,1);
-	 color: rgba(255,255,255,1);
-	 padding: 30px;
+	 background-color: rgba(51, 51, 51, 0);
+	 color: rgba(53, 53, 53, 1);
+	 padding: 32px 32px 36px 32px;
 	 margin-bottom: 0px;
-	 padding-top: 0px;
-	 font-size: 1.1em;
-	 line-height: 1.733em;
+	 font-size: 12px;
+	 line-height: 30px;
+	 font-family: 'Merriweather', serif;
 	 font-weight: 300;
+	 font-style: normal;
 }
 
 p.inverse-small {
@@ -214,11 +225,10 @@ a {
 	 -moz-column-width: 0px;
 	 -ms-column-width: 0px;
 	 column-width: 0px;
-	 font-size: 1em;
-	 line-height: 1.59em;
-	 color: rgba(51, 51, 51, 1);
-	 width: 30.96875px;
+	 color: rgba(32, 32, 32, 1);
+	 /*width: 30.96875px;*/
 }
+
 
 header.masthead {
 	 margin: 0 auto 0 auto;
@@ -314,9 +324,12 @@ div.basic {
 }
 
 i {
-	 font-family: "Kreon";
-	 font-weight: 400;
+	 font-weight: 700;
 	 font-style: normal;
+}
+
+i.intro {
+	font-weight: 400;
 }
 
 p.prolist {
@@ -329,7 +342,7 @@ p.prolist {
 	 color: rgba(0,0,0,1);
 	 padding: 30px;
 	 text-align: left;
-	 font-family: "Kreon";
+	 font-family: 'Merriweather', serif;
 	 font-weight: 400;
 	 font-style: normal;
 }
@@ -353,14 +366,14 @@ ul.menu-nested {
 
 p.footing {
 	 letter-spacing: 2px;
-	 font-size: 1em;
+	 font-size: 11px;
 	 border-width: 1px 0px 0px 0px;
 	 border-style: dotted;
-	 color: rgba(0,0,0,1);
+	 color: rgba(32, 32, 32, 1);
 	 text-align: right;
 	 line-height: 2.6em;
 	 margin: 3.462em 0px 2.692em 0px;
-	 padding: 0px;
+	 padding: 3px 0px 120px 0px;
 }
 
 img.wide {
@@ -368,10 +381,19 @@ img.wide {
 }
 
 p.body {
-	 font-family: "Kreon";
+	 font-family: 'Merriweather', serif;
 	 font-weight: 300;
 	 font-style: normal;
-	 margin: 1.25em 0em 1.458em 0em;
+	 margin: 30px 0em 30px 0em;
+	 text-align: left;
+	 width: 100%;
+}
+
+p.bodytwo {
+	 font-family: 'Merriweather', serif;
+	 font-weight: 300;
+	 font-style: normal;
+	 margin: 0px 0em 30px 0em;
 	 text-align: left;
 	 width: 100%;
 }
@@ -393,16 +415,20 @@ header {
 }
 
 i.reg {
-	 font-family: "Kreon";
+	 font-family: 'Merriweather', serif;
 	 font-weight: 400;
 	 font-style: normal;
 }
 
 p.section {
 	 text-align: center;
-	 font-family: "Kreon";
-	 font-weight: 400;
-	 font-style: normal;
+	 font-family: "Open Sans";
+	 font-weight: 300;
+	 font-style: italic;
+	 font-size: 22px;
+	 line-height: 32px;
+	 color: rgba(2, 2, 2, 1);
+	 margin: 80px 0px 40px 0px;
 }
 
 div.basictop {
@@ -416,7 +442,7 @@ div.topline {
 	 margin: 0 auto;
 	 text-align: center;
 	 width: 100%;
-	 height: 160px;
+	 height: 200px;
 	 border-width: 1px 0px 0px 0px;
 	 border-style: dashed;
 }
@@ -445,6 +471,21 @@ img.three-col-img {
 	 float: left;
 	 margin: 0%;
 	 padding: 1px;
+}
+
+p.info {
+	 font-family: 'Merriweather', serif;
+	 font-weight: 300;
+	 font-style: normal;
+	 font-size: 12px;
+	 line-height: 30px;
+	 padding: 0px 30px;
+}
+
+article {
+	 font-family: Merriweather;
+	 font-weight: 400;
+	 font-style: normal;
 }
 
 article.img-media-list {
@@ -524,21 +565,30 @@ p.image {
    -o-column-rule-style: inherit;
    -moz-column-rule-style: inherit;
    -ms-column-rule-style: inherit;
-   font-size: 1.5em;
-   line-height: 1.45em;
+   font-size: 14px;
    margin-bottom: 35px;
    column-count: 0;
    column-width: 0px;
    column-rule-style: inherit;
-   font-family: "Kreon";
+   font-family: 'Merriweather', serif;
    font-weight: 300;
    font-style: normal;
    text-align: left;
+   color: rgba(53, 53, 53, 1);
 }
 
 audio {
 	float: left;
 	width: 100%;
+}
+
+a.body {
+	 font-size: 14px;
+	 color: rgba(53, 53, 53, 1);
+}
+
+a.footing {
+	 font-size: 11px;
 }
 
 
@@ -553,6 +603,14 @@ div.wrapper {
 
 p.body {
 	 width: 100%;
+	 font-size: 14px;
+	 line-height: 34px;
+}
+
+p.bodytwo {
+	width: 100%;
+	font-size: 14px;
+	line-height: 34px;
 }
 
 aside {
@@ -569,6 +627,17 @@ div.basic {
 
 div.topline {
 	 width: 100%;
+}
+
+p.inverse-med {
+	 font-size: 12px;
+	 line-height: 30px;
+}
+
+a {
+	 font-family: 'Merriweather', serif;
+	 font-weight: 300;
+	 font-style: normal;
 }
 
 }@media only screen and (max-width: 480px) {
@@ -607,8 +676,8 @@ p.inverse-heading {
 }
 
 p.inverse-med {
-	 font-size: 1.1em;
-	 line-height: 1.733em;
+	 font-size: 12px;
+	 line-height: 30px;
 }
 
 p.inverse-small {
@@ -646,11 +715,20 @@ p.list {
 
 p.body {
 	 width: 100%;
-	 font-size: 1.5em;
+	 font-size: 14px;
+	 line-height: 34px;
+}
+
+p.bodytwo {
+	width: 100%;
+	font-size: 14px;
+	line-height: 34px;
 }
 
 p.section {
 	 width: 366px;
+	 font-size: 20px;
+	 line-height: 30px;
 }
 
 aside {
@@ -660,6 +738,10 @@ aside {
 p.lesspadding {
 	 font-size: 1.846em;
 	 line-height: 1.3em;
+}
+
+h1 {
+	 font-size: 45px;
 }
 
 }@media only screen and (max-width: 320px) {
@@ -678,14 +760,15 @@ div {
 }
 
 h1 {
-	 font-size: 2.5em;
-	 line-height: 1.108em;
+	 font-size: 33px;
+	 line-height: 45px;
 }
 
 p.intro {
-	 line-height: 1.5em;
-	 font-size: 1.5em;
+	 line-height: 40px;
+	 font-size: 20px;
 	 width: 240px;
+
 }
 
 a {
@@ -739,8 +822,9 @@ p.inverse-big {
 }
 
 p.inverse-med {
-	 font-size: 12px;
-	 line-height: 1.733em;
+	 font-size: 10px;
+	 line-height: 28px;
+	 padding: 0px 10px 30px 10px;
 }
 
 article {
@@ -758,12 +842,21 @@ p.list {
 
 p.section {
 	 width: 228px;
+	 font-size: 16px;
+	 line-height: 20px;
+	 margin: 0px;
 }
 
 p.body {
 	 width: 100%;
-	 font-size: 1.1em;
-	 line-height: 1.5em;
+	 font-size: 12px;
+	 line-height: 30px;
+}
+
+p.bodytwo {
+	width: 100%;
+	 font-size: 12px;
+	 line-height: 30px;
 }
 
 aside {
@@ -779,6 +872,10 @@ p.image {
 	width: 100%;
 	font-size: 1.1em;
 	line-height:1.5em;
+}
+
+p.footing {
+	font-size: 10px;
 }
 
 }
