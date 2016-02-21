@@ -110,15 +110,17 @@ p.weights {
 }
 
 p.pullquote {
-	 font-size: 1.308em;
+	 font-size: 19px;
 	 line-height: 26px;
-	 padding-left: 15px;
 	 border-width: 0px 0px 0px 3px;
 	 border-style: solid;
-	 font-family: 'Merriweather', serif;
-	 font-weight: 400;
-	 font-style: normal;
-	 margin: 35px 0px;
+	 font-family: "Open Sans";
+	 font-weight: 300;
+	 font-style: italic;
+	 margin: 35px 0px 35px 80px;
+	 padding: 0px 0px 0px 25px;
+	 width: 72%;
+	 text-align: left;
 }
 
 p.map {
@@ -650,7 +652,7 @@ div {
 	 width: 404px;
 }
 
-p.pullquote {
+p.quote {
 	 font-size: 1.31em;
 	 line-height: 1.527em;
 }
