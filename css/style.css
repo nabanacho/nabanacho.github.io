@@ -469,10 +469,10 @@ div.three-col-gallery:after {
 }
 
 img.three-col-img {
-	 width: 31%;
+	 width: 32%;
 	 float: left;
 	 margin: 0%;
-	 padding: 8px;
+	 padding: 4px;
 }
 
 p.info {
