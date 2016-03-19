@@ -53,9 +53,9 @@ div {
 	 -moz-box-sizing: border-box;
 	 box-sizing: border-box;
 	 padding: 0 2%;
-	 max-width: 760px;
-	 width: 760px;
-	 height: 603px;
+	 max-width: 900px;
+	 width: 900px;
+	 /*height: 2800px;*/
 	 font-family: 'Merriweather';
 	 font-weight: 400;
 	 font-style: normal;
@@ -469,10 +469,10 @@ div.three-col-gallery:after {
 }
 
 img.three-col-img {
-	 width: 32%;
-	 float: left;
+	 width: 30%;
+	 float: center;
 	 margin: 0%;
-	 padding: 4px;
+	 padding: 6px 12px 6px 12px;
 }
 
 p.info {
