@@ -1097,13 +1097,14 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #333;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+  color: #FFF;
+  /*text-decoration: underline;*/
+  background-color: #333;
 }
 a:focus {
   outline: thin dotted;
@@ -1411,8 +1412,15 @@ a.bg-danger:focus {
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eee;
+  /*border-bottom: 1px solid #eee;*/
 }
+
+.thumbnail-txt {
+
+  margin-top: 13px;
+  margin-top: 4px;
+}
+
 ul,
 ol {
   margin-top: 0;
@@ -4598,11 +4606,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
-  color: #2D2D2D;
+  color: #333;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #2D2D2D;
+  color: #333;
   background-color: transparent;
 }
 .navbar-inverse .navbar-text {
@@ -4613,7 +4621,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #2d2d2d;
+  color: #333;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
